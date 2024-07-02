@@ -1,0 +1,6 @@
+CREATE OR REPLACE TABLE ANALYTICS_DEV.PULIC.dummy_table_3_{{environment}} (
+    id INT AUTOINCREMENT,
+    name STRING,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_active BOOLEAN DEFAULT TRUE
+);
